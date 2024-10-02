@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="searchbyName">
+        SELECT *
+        FROM
+        WHERE
+    </entry>
+
+    <entry key="searchbyDepartmentCode">
+        UPDATE TBL_MENU
+        SET
+            MENU_NAME = ?
+            ,MENU_PRICE = ?
+        WHERE
+            MENU_CODE = ?
+    </entry>
+
+    <entry key="searchbySalary">
+        DELETE TBL_MENU
+        FROM TBL_MENU
+        WHERE MENU_CODE = ?
+    </entry>
+
+    <entry key="bonusCheck">
+
+    </entry>
+
+    <entry key="searchbyTelephon">
+
+    </entry>
+
+    <entry key="searchbyJcodewithSalary">
+
+    </entry>
+</properties>
